@@ -1,0 +1,12 @@
+@jwt = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Impvc2VqYWNvYjk5QGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJGRHS2gzR1pyYXkxcmZvMVpVanJnLi45b2pTS2FlSS9kSEZndGU2U1ozb0tsQWhTLnJHQ3BXIiwidXNlcklkIjoiNWUxNGE4MzRjMGJhZDY2YWU4YTFkOTExIiwic3ViIjoiNWUxNGE4MzRjMGJhZDY2YWU4YTFkOTExIiwiaWF0IjoxNTg1MTEzMzUzLCJleHAiOjE1ODU1NDUzNTN9.YaIYCPyHYcHMmy9zGLUbtRIY2kse_GM6JCONZJd2WQE
+@url = http://localhost:3000/
+
+
+
+POST {{url}}auth/login
+content-type: application/json
+
+{
+    "email": "josejacob99@gmail.com",
+    "password": "qwerty"
+}
